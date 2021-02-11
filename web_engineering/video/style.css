@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:lightslategray;
+}
+
+#container{
+    display: block;
+    width: 1000px;
+    margin: 50px  auto;
+    background-color: oldlace;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+#main-video{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#media-video{
+    display: block;
+    width: 100%;
+}
+
+#thumbnail{
+    display: block;
+    width: 900px;
+    margin: 70px auto;
+    padding: 0;
+}
+
+.tn{
+    display: inline-flex;
+    margin: 0 0 0 0;
+    width: 420px;
+    height: 300px;
+}
+
+.tn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+#separator{
+    display: inline-block;
+    width: 45px;
+    height: 100%;
+    margin: 3.5px;
+}
+#left-vid{
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#right-vid{
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
